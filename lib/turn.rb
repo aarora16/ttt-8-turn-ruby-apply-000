@@ -44,14 +44,6 @@ def turn(board)
   end
 end
 
-def valid
-  if valid_move?(board, index)
-    move(board, index, value = "X")
-    puts board
-  else
-    turn(board)
-  end
-end
     
     
     
